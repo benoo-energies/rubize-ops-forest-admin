@@ -34,11 +34,11 @@ module.exports = (sequelize, DataTypes) => {
       as: '_entrepreneur_id',
     });
 
-    // Model.belongsTo(models.service, {
-    //   foreignKey: 'service_id',
-    //
-    //   as: '_service_id',
-    // });
+    Model.belongsTo(models.service, {
+      foreignKey: 'service_id',
+
+      as: '_service_id',
+    });
 
     Model.belongsTo(models.order, {
       foreignKey: 'order_id',
