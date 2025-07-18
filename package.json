@@ -15,7 +15,7 @@
     "express-cors": "git://github.com/ForestAdmin/express-cors",
     "express-jwt": "~5.1.0",
     "forest-express-sequelize": "latest",
-    "morgan": "~1.7.0",
+    "morgan": "~1.10.1",
     "mysql2": "~1.4.2",
     "sequelize": "4.8.0",
     "serve-favicon": "~2.3.0"
